@@ -1,0 +1,82 @@
+/* UTILITIES */
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col: {
+    flex-direction: column;
+}
+
+body {
+    background-color: red;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.max-width {
+    max-width: 70vw;
+}
+
+/* FLEX CONTAINERS, COLUMNS and ROWS */
+
+
+.container {
+    width:80vh;
+    background-color: aquamarine;
+    margin:23px;
+}
+
+
+.column {
+    background-color: gray;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NAVIGATION */
+
+
+nav {
+    background-color: blue;
+    height: 64px;
+}
+
+nav li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+/* CAR PARK */
+
+.carpark {
+    background-color: darkgray;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
